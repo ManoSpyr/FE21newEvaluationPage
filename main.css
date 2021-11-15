@@ -116,7 +116,30 @@ a:hover {
   grid-row: 4;
   grid-column: 1/4;
   border-radius: 20px;
+  
 }
+.one-flex{
+  display: flex;
+  
+  height: 140px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  line-height: 100%;
+}
+.mem-one-content p,h3{
+width: 25%;
+line-height: 100%;
+margin-top: 3px;
+margin-bottom: 3px;
+box-sizing: border-box;
+
+}
+.mem-one-year{
+  
+  padding-right: 10px;
+}
+
 .moment-two{
   background-color: aquamarine;
   grid-row: 3;
@@ -135,4 +158,34 @@ a:hover {
   grid-column: 9/13;
   border-radius: 20px;
 }
-/*background-color:#d1b796 ;*/
+/*background-color:#d1b796 ;
+
+***  FEATURED WORK ******/
+.featured-work{
+  background-color: rgb(138, 84, 19);
+  display: flex;
+  height: 800px;
+  max-width:1600px;
+  column-gap: 100px;
+  margin: 4em auto 0;
+ 
+ 
+}
+.featured-work h1{
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 10px;
+  
+}
+.featured-work div{
+  width: 15%;
+  align-items: center;
+ margin-top: 200px;
+  border: 1px solid black;
+  padding: 10px;
+ 
+
+}
+.featured-work img{
+  width: 250px;
+}
